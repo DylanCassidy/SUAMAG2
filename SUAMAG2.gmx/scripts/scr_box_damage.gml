@@ -3,7 +3,7 @@ with (obj_parent_box)
     if (box_target != noone)
     {
         box_target.box_health = box_target.box_health - box_damage
-        show_debug_message(string(box_target) + ": " + string(box_health))
+        show_debug_message(string(box_target) + ": " + string(box_target.box_health))
     }
     else
     {

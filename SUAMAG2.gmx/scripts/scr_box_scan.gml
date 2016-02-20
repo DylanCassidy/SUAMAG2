@@ -22,6 +22,7 @@ while (count != 4)
                 if (inst.box_color == box_enemy)
                 {
                     box_target = inst
+                    show_debug_message(string(id) + ": targeting enemy")
                     break
                 }
             }
@@ -40,6 +41,7 @@ while (count != 4)
                 if (inst.box_color == box_enemy)
                 {
                     box_target = inst
+                    show_debug_message(string(id) + ": targeting enemy")
                     break
                 }
             }
@@ -58,6 +60,7 @@ while (count != 4)
                 if (inst.box_color == box_enemy)
                 {
                     box_target = inst
+                    show_debug_message(string(id) + ": targeting enemy")
                     break
                 }
             }
@@ -76,6 +79,7 @@ while (count != 4)
                 if (inst.box_color == box_enemy)
                 {
                     box_target = inst
+                    show_debug_message(string(id) + ": targeting enemy")
                     break
                 }
             }
@@ -87,4 +91,5 @@ while (count != 4)
 if (box_target == noone)
 {
     box_target = temp_target
+    show_debug_message(string(id) + ": targeting randomly")
 }
