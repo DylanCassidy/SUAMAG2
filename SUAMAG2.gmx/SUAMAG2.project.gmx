@@ -6,13 +6,23 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_red_box</sprite>
-    <sprite>sprites\spr_blue_box</sprite>
-    <sprite>sprites\spr_green_box</sprite>
-    <sprite>sprites\spr_yellow_box</sprite>
-    <sprite>sprites\spr_pink_box</sprite>
-    <sprite>sprites\spr_cyan_box</sprite>
     <sprite>sprites\spr_debug</sprite>
+    <sprites name="Box">
+      <sprite>sprites\spr_red_box</sprite>
+      <sprite>sprites\spr_blue_box</sprite>
+      <sprite>sprites\spr_green_box</sprite>
+      <sprite>sprites\spr_yellow_box</sprite>
+      <sprite>sprites\spr_pink_box</sprite>
+      <sprite>sprites\spr_cyan_box</sprite>
+    </sprites>
+    <sprites name="Icon">
+      <sprite>sprites\spr_red_icon</sprite>
+      <sprite>sprites\spr_blue_icon</sprite>
+      <sprite>sprites\spr_green_icon</sprite>
+      <sprite>sprites\spr_yellow_icon</sprite>
+      <sprite>sprites\spr_pink_icon</sprite>
+      <sprite>sprites\spr_cyan_icon</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -37,6 +47,14 @@
     <object>objects\obj_spawner</object>
     <object>objects\obj_game_controller</object>
     <object>objects\obj_debug</object>
+    <objects name="Icons">
+      <object>objects\obj_red_icon</object>
+      <object>objects\obj_blue_icon</object>
+      <object>objects\obj_green_icon</object>
+      <object>objects\obj_yellow_icon</object>
+      <object>objects\obj_pink_icon</object>
+      <object>objects\obj_cyan_icon</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_begin</room>
