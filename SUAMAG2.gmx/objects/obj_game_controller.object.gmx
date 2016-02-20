@@ -25,34 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>linked = noone
-randNum = irandom(5)
-
-if (randNum == 0)
-{
-    linked = instance_create(x, y, obj_red_box)
-}
-else if (randNum == 1)
-{
-    linked = instance_create(x, y, obj_blue_box)
-}
-else if (randNum == 2)
-{
-    linked = instance_create(x, y, obj_green_box)
-}
-else if (randNum == 3)
-{
-    linked = instance_create(x, y, obj_yellow_box)
-}
-else if (randNum == 4)
-{
-    linked = instance_create(x, y, obj_pink_box)
-}
-else
-{
-    linked = instance_create(x, y, obj_cyan_box)
-}
-</string>
+            <string></string>
           </argument>
         </arguments>
       </action>
