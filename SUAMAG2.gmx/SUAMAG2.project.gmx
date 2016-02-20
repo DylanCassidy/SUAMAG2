@@ -34,6 +34,9 @@
     <script>scripts\scr_box_scan.gml</script>
     <script>scripts\scr_player_kill.gml</script>
   </scripts>
+  <fonts name="fonts">
+    <font>fonts\font_main</font>
+  </fonts>
   <objects name="objects">
     <objects name="Box">
       <object>objects\obj_parent_box</object>
