@@ -1,3 +1,5 @@
+/// Caller must be obj_spawner
+
 var randNum = irandom(5)
 while (randNum == previous_color)
 {
@@ -16,5 +18,4 @@ switch (randNum)
 }
 
 linked_box.linked_spawner = id
-linked_box.box_target = noone
 previous_color = randNum

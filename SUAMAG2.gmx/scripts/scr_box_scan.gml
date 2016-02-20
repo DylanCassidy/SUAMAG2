@@ -1,3 +1,5 @@
+/// Caller must be obj_parent_box
+
 var count = 0
 var north = 0
 var east = 0
@@ -90,6 +92,13 @@ while (count != 4)
 }
 if (box_target == noone)
 {
-    box_target = temp_target
-    show_debug_message(string(id) + ": targeting randomly")
+    if (temp_target != noone)
+    {
+        box_target = temp_target
+        show_debug_message(string(id) + ": targeting randomly")
+    }
+    else
+    {
+        show_debug_message(string(id) + ": not targeting")
+    }
 }
