@@ -15,6 +15,21 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <objects name="Box">
+      <object>objects\obj_parent_box</object>
+      <object>objects\obj_red_box</object>
+      <object>objects\obj_blue_box</object>
+      <object>objects\obj_green_box</object>
+      <object>objects\obj_yellow_box</object>
+      <object>objects\obj_pink_box</object>
+      <object>objects\obj_cyan_box</object>
+    </objects>
+    <object>objects\obj_spawner</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_main</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
