@@ -1,0 +1,1 @@
+script_execute(scr_box_respawn)

@@ -18,6 +18,9 @@
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_begin.gml</script>
+    <script>scripts\scr_spawn_box.gml</script>
+    <script>scripts\scr_box_damage.gml</script>
+    <script>scripts\scr_box_respawn.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="Box">
