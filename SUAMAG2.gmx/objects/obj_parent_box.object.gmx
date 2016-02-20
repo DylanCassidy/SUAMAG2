@@ -25,8 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>box_health = 6
-box_damage = 1
+            <string>box_health = global.box_starting_health
+box_damage = global.box_starting_damage
 box_target = noone
 linked_spawner = noone
 box_color = -1
@@ -53,7 +53,7 @@ box_enemy = -1
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>box_health = box_health - 6
+            <string>box_health = box_health - global.player_damage
 show_debug_message("Player hurt " + string(id) + ": " + string(box_health))
 
 if (box_health &lt;= 0)

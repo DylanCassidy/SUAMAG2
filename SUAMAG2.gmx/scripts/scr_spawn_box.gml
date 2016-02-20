@@ -1,9 +1,65 @@
 /// Caller must be obj_spawner
 
-var randNum = irandom(5)
-while (randNum == previous_color)
+var randNum = -1
+while (1)
 {
     randNum = irandom(5)
+    if (randNum == previous_color)
+    {
+        continue
+    }
+    if (randNum == 0 && global.lock_red)
+    {
+        global.lock_red_count = global.lock_red_count - 1
+        if (global.lock_red_count == 0)
+        {
+            global.lock_red = 0
+        }
+    }
+    else if (randNum == 1 && global.lock_blue)
+    {
+        global.lock_blue_count = global.lock_blue_count - 1
+        if (global.lock_blue_count == 0)
+        {
+            global.lock_blue = 0
+        }
+    }
+    else if (randNum == 2 && global.lock_green)
+    {
+        global.lock_green_count = global.lock_green_count - 1
+        if (global.lock_green_count == 0)
+        {
+            global.lock_green = 0
+        }
+    }
+    else if (randNum == 3 && global.lock_yellow)
+    {
+        global.lock_yellow_count = global.lock_yellow_count - 1
+        if (global.lock_yellow_count == 0)
+        {
+            global.lock_yellow = 0
+        }
+    }
+    else if (randNum == 4 && global.lock_pink)
+    {
+        global.lock_pink_count = global.lock_pink_count - 1
+        if (global.lock_pink_count == 0)
+        {
+            global.lock_pink = 0
+        }
+    }
+    else if (randNum == 5 && global.lock_cyan)
+    {
+        global.lock_cyan_count = global.lock_cyan_count - 1
+        if (global.lock_cyan_count == 0)
+        {
+            global.lock_cyan = 0
+        }
+    }
+    else
+    {
+        break
+    }
 }
 
 switch (randNum)

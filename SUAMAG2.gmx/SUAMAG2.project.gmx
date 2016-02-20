@@ -84,6 +84,21 @@
       <object>objects\obj_gy_arrow</object>
       <object>objects\obj_yr_arrow</object>
     </objects>
+    <objects name="Items">
+      <object>objects\obj_red_health</object>
+      <object>objects\obj_blue_health</object>
+      <object>objects\obj_green_health</object>
+      <object>objects\obj_yellow_damage</object>
+      <object>objects\obj_pink_damage</object>
+      <object>objects\obj_cyan_damage</object>
+      <object>objects\obj_no_red</object>
+      <object>objects\obj_no_blue</object>
+      <object>objects\obj_no_green</object>
+      <object>objects\obj_no_yellow</object>
+      <object>objects\obj_no_pink</object>
+      <object>objects\obj_no_cyan</object>
+      <object>objects\obj_win</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_begin</room>

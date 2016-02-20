@@ -92,6 +92,19 @@ script_execute(scr_box_respawn)</code>
     <instance objName="obj_cg_arrow" x="231" y="424" name="inst_06A8EEA5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="45"/>
     <instance objName="obj_gy_arrow" x="288" y="288" name="inst_0E56237A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
     <instance objName="obj_yr_arrow" x="233" y="156" name="inst_D885316B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="135"/>
+    <instance objName="obj_red_health" x="1152" y="32" name="inst_1F8B2587" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blue_health" x="1312" y="32" name="inst_59C2B5D5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_green_health" x="1472" y="32" name="inst_369A14DD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_yellow_damage" x="1152" y="224" name="inst_DA4B3AAF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pink_damage" x="1312" y="224" name="inst_D14EF10E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cyan_damage" x="1472" y="224" name="inst_E9735A02" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_no_red" x="1152" y="416" name="inst_76E004AA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_no_blue" x="1216" y="416" name="inst_2DC5A8C9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_no_green" x="1280" y="416" name="inst_31CFC49F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_no_yellow" x="1344" y="416" name="inst_091DD47C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_no_pink" x="1408" y="416" name="inst_665E1CF1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_no_cyan" x="1472" y="416" name="inst_6806B8D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_win" x="160" y="272" name="inst_A3BD915C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
