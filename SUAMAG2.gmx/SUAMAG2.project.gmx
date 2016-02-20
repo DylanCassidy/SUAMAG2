@@ -5,7 +5,14 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_red_box</sprite>
+    <sprite>sprites\spr_blue_box</sprite>
+    <sprite>sprites\spr_green_box</sprite>
+    <sprite>sprites\spr_yellow_box</sprite>
+    <sprite>sprites\spr_pink_box</sprite>
+    <sprite>sprites\spr_cyan_box</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <help>
