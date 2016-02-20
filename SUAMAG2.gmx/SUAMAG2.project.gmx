@@ -12,6 +12,7 @@
     <sprite>sprites\spr_yellow_box</sprite>
     <sprite>sprites\spr_pink_box</sprite>
     <sprite>sprites\spr_cyan_box</sprite>
+    <sprite>sprites\spr_debug</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -30,6 +31,7 @@
     </objects>
     <object>objects\obj_spawner</object>
     <object>objects\obj_game_controller</object>
+    <object>objects\obj_debug</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_begin</room>
