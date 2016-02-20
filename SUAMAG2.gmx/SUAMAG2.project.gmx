@@ -21,6 +21,8 @@
     <script>scripts\scr_spawn_box.gml</script>
     <script>scripts\scr_box_damage.gml</script>
     <script>scripts\scr_box_respawn.gml</script>
+    <script>scripts\scr_box_scan.gml</script>
+    <script>scripts\scr_player_kill.gml</script>
   </scripts>
   <objects name="objects">
     <objects name="Box">

@@ -26,6 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>box_health = 6
+box_damage = 1
+box_target = noone
 </string>
           </argument>
         </arguments>
@@ -48,15 +50,12 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>box_health = box_health - 3
-
-show_debug_message(box_health)
+            <string>box_health = box_health - 6
+show_debug_message("Player hurt " + string(id) + ": " + string(box_health))
 
 if (box_health &lt;= 0)
 {
-    instance_destroy()
-    linked_spawner.linked_box = noone
-    show_debug_message("Box Die")
+    script_execute(scr_player_kill)
 }
 
 script_execute(scr_box_damage)
