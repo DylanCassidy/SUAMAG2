@@ -7,6 +7,7 @@
   <sounds name="sound"/>
   <sprites name="sprites">
     <sprite>sprites\spr_debug</sprite>
+    <sprite>sprites\spr_arrow</sprite>
     <sprites name="Box">
       <sprite>sprites\spr_red_box</sprite>
       <sprite>sprites\spr_blue_box</sprite>
@@ -38,6 +39,9 @@
     <font>fonts\font_main</font>
   </fonts>
   <objects name="objects">
+    <object>objects\obj_debug</object>
+    <object>objects\obj_spawner</object>
+    <object>objects\obj_game_controller</object>
     <objects name="Box">
       <object>objects\obj_parent_box</object>
       <object>objects\obj_red_box</object>
@@ -47,9 +51,6 @@
       <object>objects\obj_pink_box</object>
       <object>objects\obj_cyan_box</object>
     </objects>
-    <object>objects\obj_spawner</object>
-    <object>objects\obj_game_controller</object>
-    <object>objects\obj_debug</object>
     <objects name="Icons">
       <object>objects\obj_red_icon</object>
       <object>objects\obj_blue_icon</object>
@@ -57,6 +58,20 @@
       <object>objects\obj_yellow_icon</object>
       <object>objects\obj_pink_icon</object>
       <object>objects\obj_cyan_icon</object>
+    </objects>
+    <objects name="Arrows">
+      <object>objects\obj_ry_arrow</object>
+      <object>objects\obj_yg_arrow</object>
+      <object>objects\obj_gc_arrow</object>
+      <object>objects\obj_cb_arrow</object>
+      <object>objects\obj_bp_arrow</object>
+      <object>objects\obj_pr_arrow</object>
+      <object>objects\obj_rp_arrow</object>
+      <object>objects\obj_pb_arrow</object>
+      <object>objects\obj_bc_arrow</object>
+      <object>objects\obj_cg_arrow</object>
+      <object>objects\obj_gy_arrow</object>
+      <object>objects\obj_yr_arrow</object>
     </objects>
   </objects>
   <rooms name="rooms">

@@ -80,6 +80,18 @@ script_execute(scr_box_respawn)</code>
     <instance objName="obj_yellow_icon" x="288" y="192" name="inst_19430873" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_cyan_icon" x="160" y="480" name="inst_1F9ED7CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_pink_icon" x="32" y="192" name="inst_56B04EB3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_ry_arrow" x="259" y="143" name="inst_855DE7BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="315"/>
+    <instance objName="obj_yg_arrow" x="320" y="288" name="inst_6DE489CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="obj_gc_arrow" x="253" y="437" name="inst_0F21A704" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="225"/>
+    <instance objName="obj_cb_arrow" x="103" y="446" name="inst_943529F3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="135"/>
+    <instance objName="obj_bp_arrow" x="32" y="288" name="inst_EB92AABA" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_pr_arrow" x="96" y="128" name="inst_3AF0002B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="45"/>
+    <instance objName="obj_rp_arrow" x="118" y="149" name="inst_B857507A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="225"/>
+    <instance objName="obj_pb_arrow" x="64" y="288" name="inst_0C2B0FD9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
+    <instance objName="obj_bc_arrow" x="127" y="432" name="inst_5A02F463" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="314"/>
+    <instance objName="obj_cg_arrow" x="231" y="424" name="inst_06A8EEA5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="45"/>
+    <instance objName="obj_gy_arrow" x="288" y="288" name="inst_0E56237A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="90"/>
+    <instance objName="obj_yr_arrow" x="233" y="156" name="inst_D885316B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="135"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
