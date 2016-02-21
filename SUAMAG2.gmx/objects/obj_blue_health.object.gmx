@@ -26,12 +26,16 @@
           <argument>
             <kind>1</kind>
             <string>mouse_clear(mb_left)
-if (global.blue &gt;= global.healing_item_blue_cost &amp;&amp; global.pink &gt;= global.healing_item_pink_cost &amp;&amp; global.cyan &gt;= global.healing_item_cyan_cost)
+if (global.blue &gt;= global.healing_item_blue_cost &amp;&amp; global.pink &gt;= global.healing_item_pink_cost &amp;&amp; global.cyan &gt;= global.healing_item_cyan_cost &amp;&amp; global.player_health != 100)
 {
     global.blue = global.blue - global.healing_item_blue_cost
     global.pink = global.pink - global.healing_item_pink_cost
     global.cyan = global.cyan - global.healing_item_cyan_cost
     global.player_health = global.player_health + global.health_item_amount
+    if (global.player_health &gt; 100)
+    {
+        global.player_health = 100
+    }
 }
 </string>
           </argument>

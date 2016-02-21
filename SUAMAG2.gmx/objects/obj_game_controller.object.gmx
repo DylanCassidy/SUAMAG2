@@ -2,7 +2,7 @@
 <object>
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
-  <visible>0</visible>
+  <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
@@ -32,6 +32,8 @@ global.player_damage = 6
 global.box_starting_health = 6
 global.box_starting_damage = 1
 global.lock_amount = 10
+
+previous_num = global.player_health
 
 global.healing_item_red_cost = 3
 global.healing_item_blue_cost = 3
@@ -71,6 +73,60 @@ global.lock_yellow_count = 0
 global.lock_pink_count = 0
 global.lock_cyan_count = 0
 
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if (previous_num != global.player_health)
+{
+    draw_healthbar(32, 64, 408, 96, global.player_health, c_black, c_red, c_lime, 0, true, true)
+    previous_num = global.player_health
+}
+if (global.player_health &lt;= 0)
+{
+    game_end()
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>draw_healthbar(32, 64, 408, 96, global.player_health, c_black, c_red, c_lime, 0, true, true)
 </string>
           </argument>
         </arguments>
