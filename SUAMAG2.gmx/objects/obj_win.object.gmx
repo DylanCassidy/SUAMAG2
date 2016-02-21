@@ -54,7 +54,7 @@ if (global.red &gt;= global.win_item_cost &amp;&amp; global.blue &gt;= global.wi
             <kind>1</kind>
             <string>draw_self()
 draw_text_transformed(x+2, y-20, "WIN", 0.5, 0.5, 0)
-draw_text_transformed(x-40, y+sprite_height+8, "Cost: 100 of each", 0.5, 0.5, 0)
+draw_text_transformed(x-40, y+sprite_height+8, "Cost: " + string(global.win_item_cost) + " of each", 0.5, 0.5, 0)
 </string>
           </argument>
         </arguments>

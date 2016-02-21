@@ -50,7 +50,7 @@ global.damage_item_blue_cost = 3
 global.damage_item_green_cost = 3
 
 global.lock_item_cost = 5
-global.win_item_cost = 100
+global.win_item_cost = 50
 
 global.red = 0
 global.blue = 0
