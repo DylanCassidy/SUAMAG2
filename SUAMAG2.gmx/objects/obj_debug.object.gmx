@@ -26,8 +26,7 @@
           <argument>
             <kind>1</kind>
             <string>mouse_clear(mb_left)
-//room_restart()
-global.player_health = global.player_health - 10
+room_restart()
 </string>
           </argument>
         </arguments>
