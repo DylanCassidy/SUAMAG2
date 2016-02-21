@@ -1,22 +1,18 @@
+show_debug_message("Begin AI")
+
 with (obj_parent_box)
 {
-    if (box_target != noone)
-    {
-        var old_health = box_target.box_health;
-        box_target.box_health = box_target.box_health - box_damage
-        var new_health = box_target.box_health
-        if (old_health > 0 && new_health <= 0)
-        {
-            show_debug_message(string(id) + ": killed " + string(box_target) + ", healing")
-            box_health = box_health + 1
-        }
-        show_debug_message(string(box_target) + ": " + string(box_target.box_health))
-    }
-    else
-    {
-        show_debug_message(string(id) + ": skipped turn, healing")
-        box_health = box_health + 1
-    }
+    script_execute(scr_box_attack)
+}
+
+with (obj_parent_ew)
+{
+    script_execute(scr_king_attack)
+}
+
+with (obj_parent_ns)
+{
+    script_execute(scr_king_attack)
 }
 
 with (obj_parent_box)
@@ -25,6 +21,28 @@ with (obj_parent_box)
     {
         instance_destroy()
         linked_spawner.linked_box = noone
+        show_debug_message(string(id) + ": Box Die")
+    }
+}
+
+with (obj_parent_ew)
+{
+    if (box_health <= 0)
+    {
+        instance_destroy()
+        linked_spawner_1.linked_box = noone
+        linked_spawner_2.linked_box = noone
+        show_debug_message(string(id) + ": Box Die")
+    }
+}
+
+with (obj_parent_ns)
+{
+    if (box_health <= 0)
+    {
+        instance_destroy()
+        linked_spawner_1.linked_box = noone
+        linked_spawner_2.linked_box = noone
         show_debug_message(string(id) + ": Box Die")
     }
 }

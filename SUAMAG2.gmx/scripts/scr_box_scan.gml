@@ -15,7 +15,7 @@ while (count != 4)
     randNum = irandom(3)
     if (randNum == 0 && north == 0)
     {
-        inst = instance_position(x+1, y-1, obj_parent_box)
+        inst = instance_position(x+1, y-1, all)
         if (inst != noone)
         {
             if (inst.box_color != box_color)
@@ -34,7 +34,7 @@ while (count != 4)
     }
     else if (randNum == 1 && east == 0)
     {
-        inst = instance_position(x+sprite_width+1, y+1, obj_parent_box)
+        inst = instance_position(x+sprite_width+1, y+1, all)
         if (inst != noone)
         {
             if (inst.box_color != box_color)
@@ -53,7 +53,7 @@ while (count != 4)
     }
     else if (randNum == 2 && south == 0)
     {
-        inst = instance_position(x+1, y+sprite_height+1, obj_parent_box)
+        inst = instance_position(x+1, y+sprite_height+1, all)
         if (inst != noone)
         {
             if (inst.box_color != box_color)
@@ -72,7 +72,7 @@ while (count != 4)
     }
     else if (randNum == 3 && west == 0)
     {
-        inst = instance_position(x-1, y+1, obj_parent_box)
+        inst = instance_position(x-1, y+1, all)
         if (inst != noone)
         {
             if (inst.box_color != box_color)

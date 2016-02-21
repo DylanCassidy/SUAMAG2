@@ -31,6 +31,7 @@ box_target = noone
 linked_spawner = noone
 box_color = -1
 box_enemy = -1
+box_difficulty = 1
 </string>
           </argument>
         </arguments>

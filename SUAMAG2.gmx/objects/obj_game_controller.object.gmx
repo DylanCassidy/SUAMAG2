@@ -26,12 +26,19 @@
           <argument>
             <kind>1</kind>
             <string>global.player_health = 100
-global.health_item_amount = 50
-global.damage_item_amount = 3
+global.health_item_amount = 75
+global.damage_item_amount = 2
 global.player_damage = 6
 global.box_starting_health = 6
 global.box_starting_damage = 1
 global.lock_amount = 10
+global.kill_heal = 1
+global.sit_heal = 1
+global.king_kill_heal = 1
+global.king_sit_heal = 1
+global.king_attack_liklyhood = 3
+global.king_difficulty = 4
+global.king_damage = 3
 
 previous_num = global.player_health
 
@@ -50,7 +57,7 @@ global.damage_item_blue_cost = 3
 global.damage_item_green_cost = 3
 
 global.lock_item_cost = 5
-global.win_item_cost = 50
+global.win_item_cost = 15
 
 global.red = 0
 global.blue = 0

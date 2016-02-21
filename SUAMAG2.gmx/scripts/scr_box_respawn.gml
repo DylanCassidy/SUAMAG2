@@ -9,5 +9,28 @@ with (obj_spawner)
 
 with (obj_parent_box)
 {
+    script_execute(scr_king_scan)
+}
+
+show_debug_message("Begin scr_box_scan")
+
+with (obj_parent_box)
+{
     script_execute(scr_box_scan)
 }
+
+show_debug_message("Begin scr_ew_scan")
+
+with (obj_parent_ew)
+{
+    script_execute(scr_ew_scan)
+}
+
+show_debug_message("Begin scr_ns_scan")
+
+with (obj_parent_ns)
+{
+    script_execute(scr_ns_scan)
+}
+
+show_debug_message("Done AI")

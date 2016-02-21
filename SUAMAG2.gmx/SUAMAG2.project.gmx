@@ -55,10 +55,15 @@
   <scripts name="scripts">
     <script>scripts\scr_begin.gml</script>
     <script>scripts\scr_spawn_box.gml</script>
-    <script>scripts\scr_box_damage.gml</script>
-    <script>scripts\scr_box_respawn.gml</script>
-    <script>scripts\scr_box_scan.gml</script>
     <script>scripts\scr_player_kill.gml</script>
+    <script>scripts\scr_box_damage.gml</script>
+    <script>scripts\scr_box_attack.gml</script>
+    <script>scripts\scr_king_attack.gml</script>
+    <script>scripts\scr_box_respawn.gml</script>
+    <script>scripts\scr_king_scan.gml</script>
+    <script>scripts\scr_box_scan.gml</script>
+    <script>scripts\scr_ew_scan.gml</script>
+    <script>scripts\scr_ns_scan.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_main</font>
