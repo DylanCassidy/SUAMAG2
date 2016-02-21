@@ -16,6 +16,20 @@
       <sprite>sprites\spr_pink_box</sprite>
       <sprite>sprites\spr_cyan_box</sprite>
     </sprites>
+    <sprites name="Kings">
+      <sprite>sprites\spr_red_ew</sprite>
+      <sprite>sprites\spr_blue_ew</sprite>
+      <sprite>sprites\spr_green_ew</sprite>
+      <sprite>sprites\spr_yellow_ew</sprite>
+      <sprite>sprites\spr_pink_ew</sprite>
+      <sprite>sprites\spr_cyan_ew</sprite>
+      <sprite>sprites\spr_red_ns</sprite>
+      <sprite>sprites\spr_blue_ns</sprite>
+      <sprite>sprites\spr_green_ns</sprite>
+      <sprite>sprites\spr_yellow_ns</sprite>
+      <sprite>sprites\spr_pink_ns</sprite>
+      <sprite>sprites\spr_cyan_ns</sprite>
+    </sprites>
     <sprites name="Icon">
       <sprite>sprites\spr_red_icon</sprite>
       <sprite>sprites\spr_blue_icon</sprite>
@@ -61,6 +75,22 @@
       <object>objects\obj_yellow_box</object>
       <object>objects\obj_pink_box</object>
       <object>objects\obj_cyan_box</object>
+    </objects>
+    <objects name="Kings">
+      <object>objects\obj_parent_ew</object>
+      <object>objects\obj_red_ew</object>
+      <object>objects\obj_blue_ew</object>
+      <object>objects\obj_green_ew</object>
+      <object>objects\obj_yellow_ew</object>
+      <object>objects\obj_pink_ew</object>
+      <object>objects\obj_cyan_ew</object>
+      <object>objects\obj_parent_ns</object>
+      <object>objects\obj_red_ns</object>
+      <object>objects\obj_blue_ns</object>
+      <object>objects\obj_green_ns</object>
+      <object>objects\obj_yellow_ns</object>
+      <object>objects\obj_pink_ns</object>
+      <object>objects\obj_cyan_ns</object>
     </objects>
     <objects name="Icons">
       <object>objects\obj_red_icon</object>
