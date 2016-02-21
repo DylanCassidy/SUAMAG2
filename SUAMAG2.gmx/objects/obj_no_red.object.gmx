@@ -26,9 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>mouse_clear(mb_left)
-if (global.cyan &gt;= global.lock_item_cost)
+if (global.red &gt;= global.lock_item_cost)
 {
-    global.cyan = global.cyan - global.lock_item_cost
+    global.red = global.red - global.lock_item_cost
     global.lock_red = 1
     global.lock_red_count = global.lock_amount
 }
@@ -56,7 +56,7 @@ if (global.cyan &gt;= global.lock_item_cost)
             <kind>1</kind>
             <string>draw_self()
 draw_text_transformed(x, y+sprite_height+8, "Cost:", 0.5, 0.5, 0)
-draw_text_transformed(x, y+sprite_height+28, string(global.lock_item_cost) + " Cyan", 0.5, 0.5, 0)
+draw_text_transformed(x, y+sprite_height+28, string(global.lock_item_cost) + " Red", 0.5, 0.5, 0)
 </string>
           </argument>
         </arguments>

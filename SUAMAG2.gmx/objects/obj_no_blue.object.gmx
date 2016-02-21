@@ -26,9 +26,9 @@
           <argument>
             <kind>1</kind>
             <string>mouse_clear(mb_left)
-if (global.yellow &gt;= global.lock_item_cost)
+if (global.blue &gt;= global.lock_item_cost)
 {
-    global.yellow = global.yellow - global.lock_item_cost
+    global.blue = global.blue - global.lock_item_cost
     global.lock_blue = 1
     global.lock_blue_count = global.lock_amount
 }
@@ -57,7 +57,7 @@ if (global.yellow &gt;= global.lock_item_cost)
             <string>draw_self()
 draw_text_transformed(x-120, y-50, "Color Spawn Locks", 1, 1, 0)
 draw_text_transformed(x, y+sprite_height+8, "Cost:", 0.5, 0.5, 0)
-draw_text_transformed(x, y+sprite_height+28, string(global.lock_item_cost) + " Yellow", 0.5, 0.5, 0)
+draw_text_transformed(x, y+sprite_height+28, string(global.lock_item_cost) + " Blue", 0.5, 0.5, 0)
 </string>
           </argument>
         </arguments>

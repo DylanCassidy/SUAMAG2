@@ -10,3 +10,5 @@ switch (box_color)
     case 5: global.cyan = global.cyan + box_difficulty; break;
     default: show_debug_message("switch failure in scr_player_kill")
 }
+
+global.player_health = global.player_health + 1
