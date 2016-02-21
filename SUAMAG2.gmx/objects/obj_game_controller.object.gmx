@@ -127,6 +127,7 @@ if (global.player_health &lt;= 0)
           <argument>
             <kind>1</kind>
             <string>draw_healthbar(32, 64, 408, 96, global.player_health, c_black, c_red, c_lime, 0, true, true)
+draw_text(130, 26, "Player Health")
 </string>
           </argument>
         </arguments>
