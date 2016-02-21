@@ -8,7 +8,7 @@
   <isometric>0</isometric>
   <speed>30</speed>
   <persistent>0</persistent>
-  <colour>12632256</colour>
+  <colour>13158600</colour>
   <showcolour>-1</showcolour>
   <code>draw_set_font(font_main)
 script_execute(scr_box_respawn)</code>
@@ -74,12 +74,6 @@ script_execute(scr_box_respawn)</code>
     <instance objName="obj_spawner" x="544" y="160" name="inst_3EEA9C1F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spawner" x="544" y="288" name="inst_BF880C54" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spawner" x="544" y="416" name="inst_5EFF79C3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_red_icon" x="160" y="64" name="inst_78751F2F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_blue_icon" x="32" y="352" name="inst_42580944" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_green_icon" x="288" y="352" name="inst_D001CA7C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_yellow_icon" x="288" y="192" name="inst_19430873" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_cyan_icon" x="160" y="480" name="inst_1F9ED7CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_pink_icon" x="32" y="192" name="inst_56B04EB3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ry_arrow" x="259" y="143" name="inst_855DE7BE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="315"/>
     <instance objName="obj_yg_arrow" x="320" y="288" name="inst_6DE489CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="270"/>
     <instance objName="obj_gc_arrow" x="253" y="437" name="inst_0F21A704" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="225"/>
@@ -104,7 +98,13 @@ script_execute(scr_box_respawn)</code>
     <instance objName="obj_no_yellow" x="1344" y="416" name="inst_091DD47C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_no_pink" x="1408" y="416" name="inst_665E1CF1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_no_cyan" x="1472" y="416" name="inst_6806B8D2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_win" x="160" y="272" name="inst_A3BD915C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_win" x="160" y="256" name="inst_A3BD915C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_red_icon" x="160" y="64" name="inst_78751F2F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_blue_icon" x="32" y="352" name="inst_42580944" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_green_icon" x="288" y="352" name="inst_D001CA7C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_yellow_icon" x="288" y="192" name="inst_19430873" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_pink_icon" x="32" y="192" name="inst_56B04EB3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_cyan_icon" x="160" y="480" name="inst_1F9ED7CC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
